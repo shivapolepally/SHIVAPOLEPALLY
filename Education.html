@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+         body{
+            /*background-color:rgb(235, 207, 211);*/
+            /*background-image: url(image/bg.jpg);*/
+            background-image: url(image/bg\ img.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+        }
+        body, html{
+            height: 100%;
+        }
+        .card{
+            position: relative;
+            left: 0px;
+            width: 800px;
+            background-color: lightblue;
+            border-radius:10px ;
+            transition: 1000ms all;
+            transform-origin: center left;
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+            outline: 1px solid;
+            padding: 10px;
+            overflow: hidden;
+            align-items: center;
+            font-size: larger;
+        }
+        .card:hover{
+            cursor: pointer;
+            transform: scale(1.15);
+        }
+        h2{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+        li{
+            display: block;
+            float: left;
+            padding: 20px;
+            font-size: large;
+        }
+        .menu li a{
+            /*background-color: gray;*/
+            padding: 0 20px;
+            display: block;
+            text-decoration: solid;
+            color: white;
+        }
+        .menu li a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+        .soc{
+            float: right;
+            padding-right: 60px;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">SHIVA POLEPALLY</h2>
+    <div class="menu">
+        <!--<li><a href="#">Home</a></li>-->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html" >About</a></li>
+        <li><a href="Education.html" style="color: yellow">Education</a></li>
+        <li><a href="image/Resume.jpg">Resume</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <!--<li> href="#">Certificates</li>-->
+        <!--<li><a href="Contact.html">Contact</a></li>--><br><br>
+        <div class="soc">
+            <!--<a href="www.linkedin.com/in/shiva-kumar-polepally-93b3a6211"><img src="image/linked-removebg-preview1.png" width="85px"></a>-->
+            <a href="https://www.instagram.com/shivacruzz002/"><img src="image/insta.png" width="30px"></a>
+        </div>
+    </div>
+    <div class="Btech">
+        <article class="card">
+            <h3><b>SRI INDU COLLEGE OF ENGINEERING AND TECHNOLOGY</b> -[2018-2022]</h3>
+            <p>Completed Btech in the stream of Electronics and 
+                Communication Engineering with 6.6 CGPA.</p>
+        </article>
+    </div><br>
+    <div class="Inter">
+        <article class="card">
+            <h3><b>SRI CHAITANYA JUNIOR COLLEGE</b> -[2016-2018]</h3>
+            <P>Completed Intermediate (MPC) with 86.4%.</P>
+        </article>
+    </div><br>
+    <div class="SSC">
+        <article class="card">
+            <h3><b>PAVITRATMA HIGH SCHOOL</b> -[2016]</h3>
+            <P>Completed Schooling with 7.7 CGPA.</P>
+        </article><br>
+    </div>
+</body>
+</html>

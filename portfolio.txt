@@ -1,0 +1,36 @@
+---------Home---------
+Simple......
+
+
+---------About---------
+Information about me
+date of birth,Address,phone no, email.
+
+
+------Education-------
+Btech
+Inter
+School(1-6,6-8,8-10)
+
+
+------Projects---------
+Mini
+Major
+websites
+SV InfoTech(training)
+
+
+------Resume--------
+Resume pdf
+
+
+--------Skills----------
+Lang & Databases
+Frameworks
+Tools
+
+
+-------Contact---------
+Address,Social Profiles,Email,Phone No.
+
+

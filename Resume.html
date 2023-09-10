@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+         body{
+            /*background-color:rgb(235, 207, 211);*/
+            background-image: url(image/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+        }
+        body, html{
+            height: 100%;
+        }
+        /*.img{
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        .center{
+            align-items: center;
+        }*/
+        .pdf-container {
+            width: 100%;
+            max-width: 800px; /* Adjust this according to your layout */
+            margin: 0 auto;
+            color: white;
+        }   
+    </style>
+</head>
+<body>
+    <!--<div class="img">
+        <img src="image/Resume.jpg" width="40%" class="center" >
+    </div>-->
+    <div class="pdf-container">
+        <object data="your-pdf-file.pdf" type="application/pdf" width="100%" height="600">
+            <!-- If the browser does not support PDFs, a message or alternative content can be displayed here -->
+            <p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href="image/Resume.jpg">click here to download the PDF file.</a></p>
+        </object>
+    </div>
+
+</body>
+</html>
